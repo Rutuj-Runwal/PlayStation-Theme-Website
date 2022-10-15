@@ -248,4 +248,38 @@ h2 {
     padding: 4%;
     width: 200px !important;
   }
+  #inPsEx {
+    position: relative;
+    width: 100%;
+    left: 0;
+  }
+  .listFeatures {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .featureDiv {
+    width: 100% !important;
+    margin-left: 0;
+  }
+  .buyPs + div {
+    position: relative;
+    top: 800px;
+  }
+  .buyPs > div {
+    flex-direction: column !important;
+  }
+  .col-sm-6:first-of-type {
+    margin-left: 0 !important;
+  }
+  .col-sm-6 +.col-sm-6 {
+    margin-top: 50px !important;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-left: 0 !important;
+  }
+  body > div:last-of-type {
+    position: relative;
+    top: 765px;
+  }
 }
